@@ -25,12 +25,15 @@ before relying on high-level libraries.
 
 | File | Description |
 |------|-------------|
-| `1_linear_regression_manual.py` | Manual training loop, weights only, no bias |
-| `2_linear_regression_with_bias.py` | Same but adds bias term |
-| `3_forward_pass_relu.py` | Forward pass with ReLU activation |
-| `4_backpropagation_single_point.py` | Gradient calculation on a single data point |
-| `5_backpropagation_dataset.py` | Backprop applied across a small dataset |
-| `6_vectorized_training_numpy.py` | Full vectorized implementation using NumPy |
+| `1_linear_neuron_weights_only.py` | Single neuron training loop, weights only, no bias |
+| `2_linear_neuron_weights_and_bias.py` | Adds bias term to the basic neuron |
+| `3_vectorized_training_loop.py` | Vectorized version of the training loop |
+| `4_forward_pass_relu.py` | Forward pass with ReLU activation: max(0, x) |
+| `5_forward_pass_relu_diagram.png` | Hand-drawn diagram of the forward pass for visual understanding |
+| `6_backpropagation_single_sample.py` | Manual backpropagation on a single data point |
+| `7_backpropagation_dataset_loop.py` | Backpropagation looped over a small hand-coded dataset |
+| `8_vectorized_backpropagation.py` | Fully vectorized backpropagation using NumPy |
+
 ---
 
 ## Concepts Covered
@@ -48,7 +51,7 @@ before relying on high-level libraries.
 - [ ] Mini-batch training
 - [ ] Stochastic Gradient Descent (SGD)
 - [ ] Training on a real dataset (MNIST or similar)
-- [ ] Deeper network with multiple hidden layers
+- [ ] Moving into PyTorch — see [pytorch-deep-learning](https://github.com/saedm4151-irl/pytorch-deep-learning.git)
 
 ---
 
