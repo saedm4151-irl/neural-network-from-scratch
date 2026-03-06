@@ -25,13 +25,12 @@ before relying on high-level libraries.
 
 | File | Description |
 |------|-------------|
-| `training_loop_w_only.py` | Basic training loop with weights only |
-| `training_loop_w_and_bias.py` | Training loop with weights and bias |
-| `vectorized_training_loop.py` | Optimized vectorized version using NumPy |
-| `forward_pass_relu.py` | Forward pass implementation with ReLU |
-| `backpropagation.py` | Manual backpropagation from scratch |
-| `backpropagation_dataset.py` | Backpropagation applied on a dataset |
-
+| `1_linear_regression_manual.py` | Manual training loop, weights only, no bias |
+| `2_linear_regression_with_bias.py` | Same but adds bias term |
+| `3_forward_pass_relu.py` | Forward pass with ReLU activation |
+| `4_backpropagation_single_point.py` | Gradient calculation on a single data point |
+| `5_backpropagation_dataset.py` | Backprop applied across a small dataset |
+| `6_vectorized_training_numpy.py` | Full vectorized implementation using NumPy |
 ---
 
 ## Concepts Covered
